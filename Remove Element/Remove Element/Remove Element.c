@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
-/*使用两个指针start,tail，如果一个指针start指向的 是查找的数字地址start往后移一个另一个指针tail不动，如果不是，用*start代替*tail/
+/*使用两个指针start,tail，如果一个指针start指向的 是查找的数字地址start往后移一个 另一个指针tail不动，如果不是，用*start代替*tail*/
 int removeElement(int* nums, int numsSize, int val){
 	int *head = nums;
 	int *start = nums;
