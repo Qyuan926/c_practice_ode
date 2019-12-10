@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0E762E9A-1A01-4C6D-A0B0-2F300E9F8A19}</ProjectGuid>
+    <ProjectGuid>{ABBA04DE-1FB6-4768-8274-0AA2D7F6E733}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>IsPalindrome</RootNamespace>
+    <RootNamespace>Stack</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,7 +78,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="IsPalindrome.c" />
+    <ClInclude Include="stack.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stack.c" />
+    <ClCompile Include="test.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
