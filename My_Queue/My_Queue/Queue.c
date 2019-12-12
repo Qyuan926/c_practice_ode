@@ -72,7 +72,7 @@ int QueueEmpty(Queue* q)
 void QueueDestroy(Queue* q)
 {
 	QNode* cur = q->_front;
-	while (cur == NULL)
+	while (cur £¡= NULL)
 	{
 		QNode* next = cur->_pNext;
 		free(cur);
